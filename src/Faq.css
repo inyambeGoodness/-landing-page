@@ -1,0 +1,46 @@
+.question{
+    cursor: pointer;
+    border-top: 1px solid hsl(0, 0%, 86%);
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question p:hover{
+    color: hsl(0, 94%, 66%) ;
+}
+
+.question p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: hsl(229, 31%, 21%) ;
+}
+
+.question img{
+    height: 15px;
+    width: 20px;
+}
+
+.answer{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.answer p{
+    font-weight: 450;
+    color: hsl(229, 31%, 21%) ;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width:600px) {
+    .question, .answer{
+        width: 100%;
+    }
+    
+}

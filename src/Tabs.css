@@ -1,0 +1,68 @@
+.tab_kids{
+    display: flex;
+    justify-content: center;
+}
+
+.tab_kids p{
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.tab_kids p:hover{
+    color: hsl(0, 94%, 66%);
+}
+
+
+
+.tab_kids .tab {
+    padding: 20px 30px;
+    border-bottom: 1px solid hsl(240, 100%, 94%) ;
+    color: hsl(229, 8%, 60%);
+}
+
+.red_bottom{
+    padding: 20px 30px;
+    border-bottom: 3px solid hsl(0, 94%, 66%);
+    color: hsl(240, 1%, 35%);
+
+}
+
+.tabs_details{
+    margin-top: 40px;
+}
+
+.special_div2{
+    width: 45%;
+    position: absolute;
+    top : 1100px;
+    left: 0;
+    height: 370px;
+    background-color: hsl(231, 69%, 60%);
+    border-bottom-right-radius: 40%;
+    z-index: -1;
+}
+
+
+@media screen and (max-width:600px) {
+    .tab_kids{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tab_kids p{
+        font-weight: 500;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .special_div2{
+        width: 70%;
+        position: absolute;
+        top : 1400px;
+        left: 0;
+        height: 240px;
+        background-color: hsl(231, 69%, 60%);
+        border-bottom-right-radius: 40%;
+        z-index: -1;
+    }
+}

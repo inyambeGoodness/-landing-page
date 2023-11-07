@@ -1,0 +1,65 @@
+.mobile{
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    height: 100vh;
+    background-color: hsla(229, 31%, 21%, 0.79);
+}
+
+
+.mobile_nav{
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mobile_nav p{
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.mobile_menu{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.mobile_menu a {
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #fff;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.mobile_menu a button{
+    width: 100%;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    font-weight: 600;
+    padding: 15px 20px;
+}
+
+.mobile .icon{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.mobile .icon img{
+    margin-left: 30px;
+}
+

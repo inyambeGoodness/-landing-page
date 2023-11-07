@@ -1,0 +1,38 @@
+.flexboxes{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.flexbox_1{
+    align-self: flex-start;
+}
+
+.flexbox_2{
+    align-self: center;
+}
+
+.flexbox_3{
+    align-self: flex-end;
+}
+
+@media screen and (max-width:600px) {
+    .flexboxes{
+        margin-top: 50px;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        margin-bottom: 20px;
+
+    }
+
+    .flexbox_1,.flexbox_2,.flexbox_3{
+        align-self: center;
+        margin-bottom: 50px;
+    }
+
+
+    
+}
